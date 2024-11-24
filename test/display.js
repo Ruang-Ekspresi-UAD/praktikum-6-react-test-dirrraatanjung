@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Display = ({ value }) => {
-  return <p data-testid="display-value">Value: {value}</p>;
+  return <div data-testid="display-value">Value: {value}</div>;
 };
 
 export default Display;
